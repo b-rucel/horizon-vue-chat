@@ -1,17 +1,12 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <script src="/horizon/horizon.js"></script>
-    <script>
-      var horizon = Horizon();
-      horizon.onReady(function() {
-        document.querySelector('h1').innerHTML = 'horizon_vue_chat works!'
-      });
-      horizon.connect();
-    </script>
-  </head>
-  <body>
-   <marquee direction="left"><h1></h1></marquee>
-  </body>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+</body>
 </html>
